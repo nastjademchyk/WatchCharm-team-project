@@ -1,3 +1,23 @@
-body{
-    font-family: "Gilroy";
+body {
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
+  background: #fbfbfb;
+}
+
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
 }
