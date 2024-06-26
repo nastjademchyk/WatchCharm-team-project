@@ -78,7 +78,25 @@ text-align: center;
     text-align: left;
 }
 
-.catalog-button{}
+.catalog-button{
+    border-radius: 16px;
+    min-width: 160px;
+    height: 48px;
+    background: #3350e9;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px  44px;
+    display: block;
+    
+}
 
 /* .visually-hidden {
     position: absolute;
