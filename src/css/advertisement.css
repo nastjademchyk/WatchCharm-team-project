@@ -16,14 +16,28 @@
 }
 
 .adv .container {
+    background:
+        linear-gradient(0deg, #000000 0%, #666666 100%),
+        url("../images/adv-img-x1/adv-bg-img-mob-x1.png");
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 60px 28px;
     display: flex;
     flex-wrap: wrap;
+    gap: 28px;
+    border-radius: 30px;
+    width: 335px;
+    height: 363px;
 }
 
-.adv-title {}
+.adv-title {
+    visibility: hidden;
+}
 
-.adv-text {
+.adv-paragraph {
     font-weight: 600;
     font-size: 32px;
     line-height: 32px;
@@ -37,10 +51,52 @@
 }
 
 .adv-link {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    min-width: 160px;
+    height: 48px;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    line-height: 1.28571;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: #fbfbfb;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.adv-link:hover,
+.adv-link:focus {
+    background: #fbfbfb;
+    color: #0c0c0c;
+}
+
+/* Медіа-правила для гумової верстки (від 320px до 374px) */
+@media (min-width: 320px) and (max-width: 374px) {
+    .body {
+        background-color: #fff;
+    }
+}
+
+/* Медіа-правила для адаптивної верстки (від 375px до 767px) */
+@media (min-width: 375px) {
+    .body {
+        background-color: #fff;
+    }
+}
+
+/* Медіа-правила для планшетів (від 768px) */
+@media (min-width: 768px) {
+    .body {
+        background-color: #fff;
+    }
+}
+
+/* Медіа-правила для десктопів (від 1280px) */
+@media (min-width: 1280px) {
+    .body {
+        background-color: #fff;
+    }
 }
