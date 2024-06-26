@@ -1,8 +1,8 @@
 <section>
-  <div>
-    <h2>About Us</h2>
-    <div>
-      <p>
+  <div class="container">
+    <h2 class="h2-about">About Us</h2>
+    <div class="container-about">
+      <p class="p-about">
         Welcome to our premium watch collection, where luxury and style meet
         functionality and precision. Our selection of timepieces embodies the
         very best in Swiss craftsmanship and engineering, ensuring that you'll
@@ -10,30 +10,39 @@
       </p>
     </div>
     <div class="bacground-button">
-      <button>View catalog</button>
+      <button class="button-about">View catalog</button>
     </div>
-    <div>
+    <div class="div-img-about">
       <picture>
         <!-- Desktop screen -->
         <source
           media="(min-width: 1158px)"
-          srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+          srcset="
+            ./Images/about-img-x1/about-img-x1.jpg,
+            ./Images/about-img-x2/about-images-x2.jpg
+          "
           type="image/jpg"
         />
         <!-- Tablet screen -->
         <source
           media="(min-width: 768px)"
-          srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+          srcset="
+            ./Images/about-img-x1/about-img-tab-x1.jpg,
+            ./Images/about-img-x2/about-img-tab-x2.jpg
+          "
           type="image/jpg"
         />
         <!-- Mobile screen -->
         <source
           media="(max-width: 767px)"
-          srcset="./images/app@2.jpg 1x, ./images/app.jpg 2x"
+          srcset="
+            ./Images/about-img-x1/about-img-mob-x1.jpg,
+            ./Images/about-img-x2/about-img-mob-x2.jpg
+          "
           type="image/jpg"
         />
         <img
-          class=""
+          class="img-about"
           src="./Images/about-img-x2/about-img-mob-x2.jpg "
           alt="watch"
           srcset="./Images/about-img-x2/about-img-mob-x2.jpg ./Images/about-img-x1/about-img-mob-x1.jpg"

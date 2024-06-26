@@ -3,8 +3,41 @@
     padding: 0 20px;
     margin: 0 auto;
 }
+.h2-about{
+
+}
+.container-about {
+
+}
+.p-about{
+
+}
 .background-button {
     color: 3350E9;
+}
+.button-about{
+
+}
+.div-img-about{
+    
+}
+.img-about{
+
+}
+.background {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url('./Images/about-img-x1/about-img-mob-x1.jpg');
+    
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url('./Images/about-img-x2/about-img-mob-x2.jpg');
+        
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -12,6 +45,21 @@
         max-width: 768px;
         padding: 0 32px;
     }
+        .background {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url('./Images/about-img-x1/about-img-tab-x1.jpg');
+    
+        }
+    
+        @media (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .background {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)), url('./Images/about-img-x2/about-img-tab-x2.jpg');
+    
+            }
+        }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -19,4 +67,19 @@
         max-width: 1280px;
         padding: 0 65px;
     }
+        .background {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url('./Images/about-img-x1/about-img-x1.jpg,');
+    
+        }
+    
+        @media (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .background {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)), url('./Images/about-img-x2/about-images-x2.jpg');
+    
+            }
+        }
 }
