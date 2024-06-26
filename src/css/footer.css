@@ -1,0 +1,137 @@
+:root {
+    --main: #0c0c0c;
+    --accent: #3350e9;
+    --background: #fbfbfb;
+    --cards: #f3f3f3;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    color: #0c0c0c;
+    background: #fbfbfb;
+}
+
+.container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 65px;
+    }
+}
+
+
+.footer-section {
+    border-radius: 30px;
+    padding: 40px 28px 28px 28px;
+    min-width: 279px;
+    ;
+    margin: 0 auto;
+
+    background: #0c0c0c;
+    color: #fbfbfb;
+}
+
+.section-logo-footer {}
+
+.logo-footer {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-social-item {}
+
+.link {}
+
+.icon-social {}
+
+.footer-address {}
+
+.footer-phone {
+    width: 152px;
+    /* height: 44px; */
+    padding: 14px 20px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.footer-link.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    font-style: normal;
+    /* text-transform: uppercase; */
+    text-align: center;
+    display: block;
+}
+
+.footer-text-wrap {
+    max-width: 279px;
+    padding: 0;
+    margin-bottom: 92px;
+}
+
+.footer-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    /* width: 279px; */
+}
+
+
+
+.footer-nav-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px 16px;
+    margin-right: auto;
+    min-width: 147px;
+}
+
+.footer-address {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    display: block;
+    text-align: left;
+    padding: 0;
+    min-width: 83px;
+    margin-left: 49px;
+}
+
+.footer-bottom {}
+
+.copyright {}
+
+.terms {}
+
+.terms-link {}
