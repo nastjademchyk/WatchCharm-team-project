@@ -17,7 +17,8 @@
 }
 
 .adv-wrapper {
-    background: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)), url('/images/adv-img-x1/adv-bg-img-mob-x1.png');
+    background-color: rgba(17, 17, 17, 0.6);
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(102, 102, 102, 1)), url('/images/adv-img-x1/adv-bg-img-mob-x1.png');
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background-size: cover;
     background-blend-mode: overlay;
@@ -30,6 +31,7 @@
     border-radius: 30px;
     width: 279px;
     height: auto;
+    margin: 0 auto;
 }
 
 .adv-title {
@@ -57,48 +59,53 @@
     height: 48px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fbfbfb;
     cursor: pointer;
-    transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
 
-.adv-link:hover,
-.adv-link:focus {
+.adv-link:hover {
     background: #fbfbfb;
     color: #0c0c0c;
 }
 
-/* 
-.main-hero-btn {
-    font-family: "Roboto", sans-serif;
-    background-color: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin-right: auto;
-    margin-left: auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
+.adv-link:active {
+    background: #0c0c0c;
+    color: #fbfbfb;
+}
 
 /* Медіа-правила для планшетів (від 768px) */
 @media screen and (min-width: 768px) {
-    .body {
-        background-color: #fff;
+    .adv {
+        padding: 0;
     }
+
+    .adv .container {
+        padding: 0 32px 0 32px;
+    }
+
+    .adv-wrapper {
+        min-width: 704;
+    }
+
+    .adv-title {}
+
+    .visually-hidden {}
+
+    .adv-paragraph {}
+
+    .adv-span {}
+
+    .adv-button {}
+
+    .adv-link {}
 }
 
 /* Медіа-правила для десктопів (від 1280px) */
