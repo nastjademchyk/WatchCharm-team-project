@@ -31,8 +31,13 @@
     background: #f3f3f3;
     box-sizing: border-box;
     padding: 24px  28px;
+   
 
 }
+.catalog-item:nth-last-of-type(2), .catalog-item:nth-last-of-type(1) {
+    display: none;
+}
+
 .catalog-item-img {
     padding: 18px 36px;
     
@@ -92,33 +97,26 @@ text-align: center;
     
 }
 
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-
-} */
  .catalog-item-visually {
     display: none;
  }
 
  @media screen and (min-width:768px) {
-    
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
+    .catalog {
+       padding: 0;
     }
+    .container {
+        padding: 0;
+    }
+    .cont-tab {
+        width: 704px;
+    }
+   
 
    .catalog-title {
         font-size: 48px;
         margin-bottom: 40px;
+       
        }
     .catalog-list {
         display: flex;
@@ -127,21 +125,73 @@ text-align: center;
         row-gap: 32px;
         flex-direction: row;
            }
+
+
+    
     .catalog-item {
         width: calc((100% - 16px)/2);
+        padding: 24px 32px;
+
     }
-        .catalog-item-visually {
-            display: block;
+   .catalog-item-img {
+       padding: 18px 32px;
+
+   }
+   
+
+    .catalog-item-visually {
+        display: block;
       }
        
     .catalog-title-list {
         font-size: 20px;
-        line-height: 1;  
+        line-height: 1; 
+        /* max-width: 100%; */
+        
     }
     
-       
     .catalog-button {
         display: none;
     }
+.catalog-item:nth-last-of-type(2),
+.catalog-item:nth-last-of-type(1) {
+    display: block;
 }
 
+}
+
+@media only screen and (min-width: 1280px) {
+    .cont-tab{
+        width: 1280px;
+    }
+    .catalog {
+       padding-right: 65px;
+       padding-left: 65px;
+        }
+    
+
+    .catalog-title {
+        font-size: 48px;
+        margin-bottom: 40px;
+                }
+
+    .catalog-list {
+             display: flex;
+             flex-wrap: wrap;
+             column-gap: 23px;
+             row-gap: 32px;
+             flex-direction: row;
+    
+        }
+         
+    .catalog-item {
+            width: calc((100% - 23px) / 3);
+        }
+        .catalog-item-visually {
+            display: block;
+                 }
+    .catalog-item:nth-last-of-type(2), .catalog-item:nth-last-of-type(1) {
+             display: flex;
+                                 }
+    
+  }
