@@ -12,8 +12,7 @@
 }
 
 .adv {
-    padding: 60px 0;
-    margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .adv-wrapper {
@@ -91,7 +90,7 @@
 /* Медіа-правила для планшетів (від 768px) */
 @media screen and (min-width: 768px) {
     .adv {
-        padding: 0;
+        margin-bottom: 80px;
     }
 
     .adv .container {
@@ -126,6 +125,10 @@
 
 /* Медіа-правила для десктопів (від 1280px) */
 @media screen and (min-width: 1280px) {
+
+    .adv {
+        margin-bottom: 100px;
+    }
 
     .adv .container {
         padding: 0 65px;
