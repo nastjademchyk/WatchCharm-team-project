@@ -11,7 +11,6 @@
   margin-bottom: 28px;
 }
 .hero-title {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 40px;
   line-height: 0.95;
@@ -23,14 +22,11 @@
   color: #3350e9;
 }
 .hero-text {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
-}
-.box-hero-list {
 }
 
 .hero-box-img {
@@ -50,10 +46,9 @@
 }
 
 .link-scroll {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -81,7 +76,6 @@
     margin-bottom: 0;
   }
   .hero-title {
-    font-family: 'Gilroy', sans-serif;
     font-weight: 600;
     font-size: 70px;
     line-height: 0.85714;
@@ -92,7 +86,6 @@
     max-width: 480px;
   }
   .hero-text {
-    font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -107,7 +100,6 @@
     margin-left: auto;
   }
   .link-scroll {
-    font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1;
@@ -127,11 +119,10 @@
     padding: 0 65px;
   }
   .hero-img-item {
-    min-width: 60px;
-    min-height: 60px;
+    width: 60px;
+    height: 60px;
   }
   .hero-title {
-    font-family: 'Gilroy', sans-serif;
     font-weight: 600;
     font-size: 72px;
     line-height: 0.875;
@@ -140,5 +131,20 @@
   }
   .hero-title {
     width: 597px;
+  }
+  .hero-box-img {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    width: 189px;
+    margin-left: auto;
+  }
+  .box-hero-title {
+    max-width: 597px;
+    margin-bottom: 0;
+  }
+  .hero-img-list {
+    display: flex;
+    justify-content: flex-end;
   }
 }
