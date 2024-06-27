@@ -18,7 +18,7 @@
 
 .adv-wrapper {
     background-color: rgba(17, 17, 17, 0.6);
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(102, 102, 102, 1)), url('/images/adv-img-x1/adv-bg-img-mob-x1.png');
+    background-image: linear-gradient(rgba(102, 102, 102, 1), rgba(102, 102, 102, 1)), url('/images/adv-img-x1/adv-bg-img-mob-x1.png');
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background-size: cover;
     background-blend-mode: overlay;
@@ -39,7 +39,6 @@
 }
 
 .adv-paragraph {
-    /* padding: 60px 28px 0 28px; */
     font-weight: 600;
     font-size: 32px;
     line-height: 32px;
@@ -92,14 +91,20 @@
     }
 
     .adv-wrapper {
-        min-width: 704;
+        background-image: linear-gradient(rgba(102, 102, 102, 1), rgba(102, 102, 102, 1)), url('../images/adv-img-x1/adv-bg-img-tab-x1.png');
+        min-width: 576px;
+        padding: 80px 64px;
+        gap: 32px;
     }
 
     .adv-title {}
 
     .visually-hidden {}
 
-    .adv-paragraph {}
+    .adv-paragraph {
+        font-size: 48px;
+        line-height: 92%;
+    }
 
     .adv-span {}
 
@@ -110,7 +115,31 @@
 
 /* Медіа-правила для десктопів (від 1280px) */
 @media screen and (min-width: 1280px) {
-    .body {
-        background-color: #fff;
+
+    .adv .container {
+        padding: 0 65px;
     }
+
+    .adv-wrapper {
+        flex-wrap: nowrap;
+        background-image: linear-gradient(rgba(102, 102, 102, 1), rgba(102, 102, 102, 1)), url('../images/adv-img-x1/adv-bg-img-x1.png');
+        min-width: 1150px;
+        padding: 83px 80px;
+        gap: 140px;
+    }
+
+    .adv-title {}
+
+    .visually-hidden {}
+
+    .adv-paragraph {
+        font-size: 48px;
+        line-height: 92%;
+    }
+
+    .adv-span {}
+
+    .adv-button {}
+
+    .adv-link {}
 }
