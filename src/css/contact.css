@@ -22,6 +22,11 @@ min-height: 416px;
 
 .contact-description{
     margin-bottom: 28px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
 }
 .btn-contact{
     margin-top: 10px;
@@ -32,4 +37,13 @@ width: 134px;
 height: 42px;
 border: none;
     
+}
+
+.contact-title{
+    font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+margin-bottom: 24px;
 }
