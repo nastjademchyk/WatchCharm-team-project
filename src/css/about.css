@@ -17,11 +17,12 @@
 }
 .block-about { 
     width: 335px;
+    height: 446px;
 }
 .block-background {
     border-radius: 30px;
     width: 335px;
-    height: 400px;
+    height: 446px;
     background-color: #f3f3f3;
     padding-top: 38px;
 }
@@ -116,11 +117,12 @@
     }
     .block-about {
         width: 704px;
-        
+        height: 512px;
     }
     .block-background {
         border-radius: 50px;
         width: 704px;
+        height: 512px;
         background-color: #f3f3f3;
         padding-top: 70px;
     }
@@ -196,6 +198,7 @@
     }
     .block-about {
         width: 580px;
+        height: 532px;
     }
     .block-background {
         border-radius: 50px;
