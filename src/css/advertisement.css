@@ -29,8 +29,6 @@
     flex-wrap: wrap;
     gap: 28px;
     border-radius: 30px;
-    width: 279px;
-    height: auto;
     margin: 0 auto;
 }
 
@@ -92,25 +90,18 @@
 
     .adv-wrapper {
         background-image: linear-gradient(rgba(102, 102, 102, 1), rgba(102, 102, 102, 1)), url('../images/adv-img-x1/adv-bg-img-tab-x1.png');
-        min-width: 576px;
+        /* min-width: 576px; */
         padding: 80px 64px;
         gap: 32px;
     }
 
-    .adv-title {}
 
-    .visually-hidden {}
 
     .adv-paragraph {
         font-size: 48px;
         line-height: 92%;
     }
 
-    .adv-span {}
-
-    .adv-button {}
-
-    .adv-link {}
 }
 
 /* Медіа-правила для десктопів (від 1280px) */
@@ -123,7 +114,6 @@
     .adv-wrapper {
         flex-wrap: nowrap;
         background-image: linear-gradient(rgba(102, 102, 102, 1), rgba(102, 102, 102, 1)), url('../images/adv-img-x1/adv-bg-img-x1.png');
-        min-width: 1150px;
         padding: 83px 80px;
         gap: 140px;
     }
