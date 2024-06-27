@@ -87,7 +87,7 @@
     color: #fbfbfb;
 }
 
-/* Медіа-правила для планшетів (від 768px) */
+/* Media rules for tablets (from 768px) */
 @media screen and (min-width: 768px) {
     .adv {
         margin-bottom: 80px;
@@ -99,7 +99,6 @@
 
     .adv-wrapper {
         background-image: linear-gradient(rgba(102, 102, 102, 1), rgba(102, 102, 102, 1)), url('/images/adv-img-x1/adv-bg-img-tab-x1.png');
-        /* min-width: 576px; */
         padding: 80px 64px;
         gap: 32px;
     }
@@ -123,7 +122,7 @@
 
 }
 
-/* Медіа-правила для десктопів (від 1280px) */
+/* Media rules for tablets (from 1280px) */
 @media screen and (min-width: 1280px) {
 
     .adv {
