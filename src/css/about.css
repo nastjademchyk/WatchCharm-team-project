@@ -63,11 +63,14 @@
     line-height: 1.28571;
     text-align: center;
     color: #fbfbfb;
-    background-color: #3350E9;
     border-radius: 16px;
     width: 160px;
     height: 48px;
+    background-color: #3350e9;
     border: none;
+}
+.button-about:hover {
+    background-color: #1f3cd4;
 }
 .div-img-about{
 
