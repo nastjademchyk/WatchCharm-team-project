@@ -1,37 +1,55 @@
-<section class="contact-us">
+<section id="contact" class="contact">
   <div class="container">
-    <h2>Contact Us</h2>
-    <p>
-      If you have any questions, feel free to reach out to us by filling out the
-      form below.
-    </p>
-    <form action="#" method="post" class="contact-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="email">Email:</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        required
-        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-      />
-
-      <label for="phone">Phone:</label>
-      <input
-        type="tel"
-        id="phone"
-        name="phone"
-        required
-        pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-      />
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit" class="btn">Send</button>
-    </form>
+    <h2 class="contact-title">Contact Us</h2>
+    
+  <div class="box-contact">
+      <p class="contact-description">
+        If you have any questions, feel free to reach out to us by filling out the
+        form below.
+      </p>
+  
+      <form class="contact-form">
+        <label for="name"></label>
+        <input 
+        type="text"
+        id="name" 
+        name="name" 
+        placeholder="Name" 
+        required />
+  
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        />
+  
+        <label for="phone"></label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+380"
+          required
+          pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+        />
+  
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="5" placeholder="Comment" required></textarea>
+  
+        <button type="submit" class="btn">Send</button>
+      </form>
+  </div>
+  
+    <picture>
+       <source srcset="../images/contact-img-x1/contact-img-mob-x1.jpg 1x, ../images/contact-img-mob-x2.jpg 2x " media="(max-width: 767px)">
+       <source srcset="../images/contact-img-x1/contact-img-tab-x1.jpg 1x, ../images/contact-img-tab-x2.jpg 2x" media="(min-width: 768px)">
+       <source srcset="../images/contact-img-x1/contact-img-x1.jpg 1x, ../images/contact-img-x2/contact-img-x2.jpg 2x" media="(min-width: 1280px)">
+       <img src="../images/contact-img-x1/contact-img-mob-x1.jpg" alt="watch on the stone" width="335" height="512">
+      </picture>
 
   </div>
 </section>
