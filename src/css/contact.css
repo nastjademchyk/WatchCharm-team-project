@@ -4,4 +4,32 @@ padding: 48px 28px;
 width: 335px;
 height: 512px;
 background: #f3f3f3;
+min-width: 279px;
+min-height: 416px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px; 
+}
+
+.contact-description{
+    margin-bottom: 28px;
+}
+.btn-contact{
+    margin-top: 10px;
+    background: #3350e9;
+    border-radius: 16px;
+padding: 12px 50px;
+width: 134px;
+height: 42px;
+border: none;
+    
 }
