@@ -31,8 +31,8 @@ body {
     }
 }
 
-.footer.container {
-    margin: 0 auto 20px auto;
+.footer-section {
+    margin-bottom: 20px;
 }
 
 .footer-wrap {
@@ -45,6 +45,11 @@ body {
 .footer-top {
     display: flex;
     flex-direction: column;
+    margin-bottom: 92px;
+}
+
+.footer-logo-wrap {
+    margin-bottom: 20px;
 }
 
 .logo-footer {
@@ -52,13 +57,14 @@ body {
     font-size: 16px;
     letter-spacing: -0.02em;
     display: flex;
+    height: 23px;
     margin-bottom: 20px;
 }
 
 .footer-social-links {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
+
 }
 
 .footer-social-link {
@@ -103,7 +109,6 @@ body {
 
 .footer-text-wrap {
     padding: 0;
-    margin-bottom: 92px;
 }
 
 .footer-text {
@@ -124,7 +129,7 @@ body {
 .footer-nav-lists {
     display: flex;
     flex-wrap: wrap;
-    gap: 13px 16px;
+    gap: 8px 16px;
     margin-right: auto;
     min-width: 147px;
 }
@@ -152,7 +157,6 @@ body {
 }
 
 .footer-bottom {
-    padding: 24px 0 0 0;
     font-weight: 500;
     font-size: 10px;
     line-height: 1.4;
@@ -161,6 +165,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 24px 0 0 0;
     border-top: 1px solid rgba(251, 251, 251, 0.1);
 }
 
@@ -176,6 +181,10 @@ body {
 
 @media only screen and (min-width: 768px) {
 
+    .footer-section {
+        margin-bottom: 32px;
+    }
+
     .footer-wrap {
         border-radius: 30px;
         padding: 40px 40px 28px;
@@ -187,19 +196,29 @@ body {
         margin-bottom: 100px;
     }
 
-    .section-logo-footer {
-        margin-right: 336px;
-        margin-bottom: 86px;
+    .footer-logo-wrap {
+        margin: 0 336px 0 0;
     }
 
     .logo-footer {
         font-size: 20px;
+        height: 24px;
+    }
+
+    .footer-social-link {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer-icon-social {
+        width: 20px;
+        height: 20px;
     }
 
     .footer-phone {
         min-width: 160px;
         max-height: 48px;
-        margin-left: auto;
+        margin: 0 0 0 auto;
     }
 
     .footer-link.link {
@@ -209,7 +228,7 @@ body {
 
     .footer-text-wrap {
         width: 524px;
-        margin: 0 auto;
+        margin: 86px auto 0;
     }
 
     .footer-text {
@@ -244,7 +263,7 @@ body {
 }
 
 @media only screen and (min-width: 1280px) {
-    .footer.container {
+    .footer-container.container {
         padding: 0 32px;
     }
 
@@ -261,14 +280,13 @@ body {
         order: 2;
     }
 
-    .section-logo-footer {
+    .footer-logo-wrap {
         margin-right: 178px;
-        margin-bottom: 0;
     }
 
     .footer-text-wrap {
-        margin: 0;
-        margin-right: 147px;
+        margin: 0 147px 0 0;
+
     }
 
     .footer-phone {
@@ -277,6 +295,10 @@ body {
 
     .footer-nav-lists {
         gap: 40px;
+    }
+
+    .footer-nav {
+        gap: 0;
     }
 
     .footer-address {
