@@ -24,7 +24,7 @@
     width: 335px;
     height: 446px;
     background-color: #f3f3f3;
-    padding-top: 38px;
+    padding: 40px 20px 128px 20px;
 }
 .container-about {
     display: flex;
@@ -32,7 +32,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 28px;
-    margin-left: 15px;
+   
 }
 .h2-about {
     font-weight: 600;
@@ -59,7 +59,7 @@
 }
 .background-button {
     margin-top: 40px;
-    margin-left: 20px;
+    
 }
 .button-about {
     font-weight: 500;
@@ -82,21 +82,12 @@
 .img-about{
     border-radius: 30px;
 }
-.background {
+.img-about {
     background-image: linear-gradient(rgba(12, 12, 12, 0.2),
             rgba(12, 12, 12, 0.2)), url('./Images/about-img-x1/about-img-mob-x1.jpg');
     
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .background {
-        background-image: linear-gradient(rgba(12, 12, 12, 0.2),
-                rgba(12, 12, 12, 0.2)), url('./Images/about-img-x2/about-img-mob-x2.jpg');
-        
-    }
-}
 
 @media only screen and (min-width: 768px) {
     .section-about {
@@ -162,20 +153,10 @@
         margin-top: 70px;
         margin-left: 60px;
     }
-    .background {
+    .img-about {
         background-image: linear-gradient(rgba(12, 12, 12, 0.2),
                 rgba(12, 12, 12, 0.2)), url('./Images/about-img-x1/about-img-tab-x1.jpg');
     
-    }
-    
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .background {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2),
-                    rgba(12, 12, 12, 0.2)), url('./Images/about-img-x2/about-img-tab-x2.jpg');
-    
-        }
     }
 }
 
@@ -243,19 +224,9 @@
         margin-top: 40px;
         margin-left: 60px;
         }
-    .background {
+    .img-about {
         background-image: linear-gradient(rgba(12, 12, 12, 0.2),
                 rgba(12, 12, 12, 0.2)), url('./Images/about-img-x1/about-img-x1.jpg,');
     
-    }
-    
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .background {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2),
-                    rgba(12, 12, 12, 0.2)), url('./Images/about-img-x2/about-images-x2.jpg');
-    
-        }
     }
 }
