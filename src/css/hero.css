@@ -1,6 +1,7 @@
 .hero {
   padding-top: 60px;
   padding-bottom: 0;
+  margin-bottom:60px;
 }
 
 .box-hero {
@@ -71,6 +72,7 @@
   }
   .hero {
     padding-top: 80px;
+    margin-bottom:80px;
   }
   .box-title-people {
     display: flex;
@@ -127,6 +129,11 @@
     width: 60px;
     height: 60px;
   }
+
+  .hero{
+margin-bottom:100px;
+  }
+
   .hero-title {
     font-weight: 600;
     font-size: 72px;
