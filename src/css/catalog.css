@@ -2,7 +2,9 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-
+.container-catalog.container {
+    margin-bottom: 60px;
+}
 .catalog-title {
     font-weight: 600;
     font-size: 32px;
@@ -25,13 +27,13 @@
 .catalog-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    /* width: 100%; */
     background: #f3f3f3;
     box-sizing: border-box;
     padding: 24px  28px;
 
 }
-.catalog-item:nth-last-of-type(2), .catalog-item:nth-last-of-type(1) {
+.catalog-item:nth-child(5),
+.catalog-item:nth-child(6) {
     display: none;
 }
 
@@ -89,21 +91,20 @@ text-align: center;
     margin-left: auto;
     padding: 15px  44px;
     display: block;
-    
+}
+.catalog-button:hover {
+    background: #1f3cd4;
 }
 
- .catalog-item-visually {
-    display: none;
- }
 
  @media screen and (min-width:768px) {
     .catalog {
        padding: 0;
-
     }
-    .container {
-        max-width: 704px;
-    }
+   .container {
+       max-width: 768px;
+       padding: 0 32px;
+   }
     
    .catalog-title {
         font-size: 48px;
@@ -124,27 +125,28 @@ text-align: center;
     }
    .catalog-item-img {
        padding: 10px 6px;
-
+       display: flex;
+       justify-content: center;
+       text-align: center;
    }
    .catalog-image-text {
-    text-align: left;
-    
+        text-align: left;
 }
     
     .catalog-title-list {
         font-size: 20px;
         line-height: 1; 
-        /* max-width: 100%; */
         white-space: nowrap;
         overflow: hidden;
+        text-overflow: ellipsis;
     }
     
     .catalog-button {
         display: none;
     }
-.catalog-item:nth-last-of-type(2),
-.catalog-item:nth-last-of-type(1) {
-    display: block;
+    .catalog-item:nth-child(5),
+    .catalog-item:nth-child(6) {
+        display: block;
 }
 
 }
@@ -152,15 +154,8 @@ text-align: center;
 @media only screen and (min-width: 1280px) {
     
     .catalog {
-     
-        }
-    .cont-desk {
-  width: 1280px;
-  /* padding: 0  65px; */
-            
-        }
-        
-    
+        margin-bottom: 80px;
+        } 
     .catalog-title {
         font-size: 48px;
         margin-bottom: 40px;
@@ -178,15 +173,7 @@ text-align: center;
     .catalog-item {
             width: calc((100% - 46px) / 3);
         }
-    .catalog-title-list {
-        white-space: nowrap;
-        overflow: hidden;
-                  }
-        .catalog-item-visually {
-            display: block;
-                 }
-    .catalog-item:nth-last-of-type(2), .catalog-item:nth-last-of-type(1) {
-             display: flex;
+   
                                  }
     
-  }
+  
