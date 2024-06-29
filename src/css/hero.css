@@ -1,7 +1,7 @@
 .hero {
   padding-top: 60px;
   padding-bottom: 0;
-  margin-bottom:60px;
+  margin-bottom: 60px;
 }
 
 .box-hero {
@@ -64,6 +64,7 @@
 }
 .hero-img-watch {
   width: 100%;
+  border-radius: 30px;
 }
 @media only screen and (min-width: 768px) {
   .container {
@@ -72,7 +73,7 @@
   }
   .hero {
     padding-top: 80px;
-    margin-bottom:80px;
+    margin-bottom: 80px;
   }
   .box-title-people {
     display: flex;
@@ -118,6 +119,11 @@
   .hero-img-item {
     width: 56px;
     height: 56px;
+    margin-right: -15px;
+  }
+  .hero-img-watch {
+    width: 100%;
+    border-radius: 50px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -128,10 +134,11 @@
   .hero-img-item {
     width: 60px;
     height: 60px;
+    margin-right: -16px;
   }
 
-  .hero{
-margin-bottom:100px;
+  .hero {
+    margin-bottom: 100px;
   }
 
   .hero-title {
@@ -148,7 +155,7 @@ margin-bottom:100px;
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
-    width: 189px;
+    width: 145px;
     margin-left: auto;
   }
   .box-hero-title {
@@ -157,6 +164,9 @@ margin-bottom:100px;
   }
   .hero-img-list {
     display: flex;
-    justify-content: flex-end;
+  }
+  .hero-img-watch {
+    width: 100%;
+    border-radius: 50px;
   }
 }
