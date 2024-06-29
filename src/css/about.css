@@ -57,10 +57,7 @@
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
 }
-.background-button {
-    margin-top: 40px;
-    
-}
+
 .button-about {
     font-weight: 500;
     font-size: 14px;
@@ -72,6 +69,10 @@
     height: 48px;
     background-color: #3350e9;
     border: none;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .button-about:hover {
     background-color: #1f3cd4;
