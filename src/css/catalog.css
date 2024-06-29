@@ -1,6 +1,7 @@
 .catalog {
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 60px;
 }
 .container-catalog.container {
     margin-bottom: 60px;
@@ -39,6 +40,7 @@
 
 .catalog-item-img {
     padding: 18px 36px;
+    margin-bottom: 10px;
     
 }
 
@@ -101,6 +103,7 @@ text-align: center;
  @media screen and (min-width:768px) {
     .catalog {
        padding: 0;
+       margin-bottom: 80px;
     }
    .container {
        max-width: 768px;
@@ -130,6 +133,11 @@ text-align: center;
        justify-content: center;
        text-align: center;
    }
+   .catalog-card-image {
+    width: 268px;
+    height: 292px;
+    
+   }
    .catalog-image-text {
         text-align: left;
 }
@@ -155,7 +163,7 @@ text-align: center;
 @media only screen and (min-width: 1280px) {
     
     .catalog {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
         } 
     .catalog-title {
         font-size: 48px;
@@ -172,9 +180,15 @@ text-align: center;
         }
          
     .catalog-item {
-            width: calc((100% - 46px) / 3);
+        width: calc((100% - 46px) / 3);
         }
+
+    .catalog-card-image {
+            width: 292px;
+            height: 292px;   }
    
     }
     
-  
+    
+        
+    
