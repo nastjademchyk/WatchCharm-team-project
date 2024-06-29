@@ -18,11 +18,13 @@
     background-color: #f3f3f3;
     border-radius: 30px;
     margin-bottom: 60px;
-    position: relative;
+    display: flex;
 }
 
 .reviews-item-1 {
     padding: 32px 36px;
+    display: block;
+    width: 100%;
 }
 
 .reviews-subtitle {
@@ -52,4 +54,37 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 24px;
+}
+
+.reviews-item-2, .reviews-item-3{
+    display: none;
+}
+
+@media screen and  (min-width: 768px){
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .reviews-item-1, .reviews-item-2{
+        display: block;
+        width: calc((100% - 16px)/2);
+        padding: 32px 36px;
+        background-color: #f3f3f3;
+        border-radius: 30px;
+        margin-bottom: 60px;
+    }
+    .reviews-list{
+        display: flex;
+        gap: 16px;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (min-width: 1158px) {
+    .container{
+    max-width: 1158px;
+    }
 }
