@@ -15,7 +15,6 @@
 }
 
 .reviews-list {
-    background-color: #f3f3f3;
     border-radius: 30px;
     margin-bottom: 60px;
     display: flex;
@@ -41,7 +40,7 @@
 .reviews-text-card {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
@@ -60,22 +59,24 @@
 
 .reviews-item-2, .reviews-item-3{
     display: none;
+    border-radius: 30px;
+    padding: 32px 36px;
+    background: #f3f3f3;
 }
 
-@media screen and  (min-width: 768px){
+
+@media screen and (min-width:768px) {
     .container {
         max-width: 768px;
     }
-}
-
-@media screen and (min-width:768px) {
     .reviews-item-1, .reviews-item-2{
-        display: block;
-        width: calc((100% - 16px)/2);
-        padding: 32px 36px;
+        border-radius: 30px;
+        width: calc((100% - 16px) / 2);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .reviews-list{
-        display: flex;
         gap: 16px;
     }
     
