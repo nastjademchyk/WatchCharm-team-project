@@ -76,15 +76,12 @@
 .button-about:hover {
     background-color: #1f3cd4;
 }
-.div-img-about{
-
-}
 .img-about{
-    border-radius: 30px;
+    border-radius: 50%;
 }
 .img-about {
     background-image: linear-gradient(rgba(12, 12, 12, 0.2),
-            rgba(12, 12, 12, 0.2)), url('./Images/about-img-x1/about-img-mob-x1.jpg');
+            rgba(12, 12, 12, 0.2)), url('./images/about-img-x1/about-img-mob-x1.jpg');
     
 }
 
@@ -99,12 +96,12 @@
     }
     .container-div-about {
         display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            flex-direction: column;
-            gap: 40px;
-            padding: 0px 32px;
-            width: 768px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px 32px;
+        width: 768px;
     }
     .block-about {
         width: 704px;
@@ -155,7 +152,7 @@
     }
     .img-about {
         background-image: linear-gradient(rgba(12, 12, 12, 0.2),
-                rgba(12, 12, 12, 0.2)), url('./Images/about-img-x1/about-img-tab-x1.jpg');
+                rgba(12, 12, 12, 0.2)), url('./images/about-img-x1/about-img-tab-x1.jpg');
     
     }
 }
@@ -227,7 +224,7 @@
         }
     .img-about {
         background-image: linear-gradient(rgba(12, 12, 12, 0.2),
-                rgba(12, 12, 12, 0.2)), url('./Images/about-img-x1/about-img-x1.jpg,');
+                rgba(12, 12, 12, 0.2)), url('./images/about-img-x1/about-img-x1.jpg,');
     
     }
 }
