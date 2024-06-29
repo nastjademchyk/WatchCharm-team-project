@@ -92,6 +92,9 @@ textarea:focus {
   height: auto;
   height: 100%;
 }
+.contact-image img {
+  border-radius: 50px;
+}
 
 @media only screen and (min-width: 768px) {
   .container {
