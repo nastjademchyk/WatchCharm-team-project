@@ -34,6 +34,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #0c0c0c;
+    margin-bottom: 8px;
 }
 
 .reviews-text-card {
@@ -94,6 +95,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #0c0c0c;    
+    margin-bottom: 8px;
 }
 
     .reviews{
@@ -146,6 +148,7 @@
         letter-spacing: -0.02em;
         text-align: center;
         color: #0c0c0c;
+        margin-bottom: 8px;
     }
 
     .reviews-text-card{
