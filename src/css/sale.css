@@ -43,7 +43,7 @@
     display: flex;
     width: 80px;
     background-color: #f8f8f8;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     flex-direction: row;
     padding: 13px 14px;
@@ -51,15 +51,20 @@
 
 .sale-main-img-5 {
     background-color: #f8f8f8;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 50px;
+}
+
+.sale-img-5 {
+    width: 235px;
+    height: 285px;
 }
 
 .sale-offer {
     padding: 48px 28px;
     background-color: #3350e9;
     color: white;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .sale-product-identity {
@@ -112,6 +117,9 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    
 }
 
 .new-price {
@@ -119,6 +127,7 @@
     padding: 8px 12px;
     border-radius: 8px;
     background-color: #4761eb;
+
 }
 
 .original-price {
@@ -131,6 +140,7 @@
     letter-spacing: -0.02em;
     text-decoration: line-through;
     color: rgba(251, 251, 251, 0.5);
+    
 }
 
 .sale-description {
@@ -187,6 +197,9 @@
     .sale-main-img-5 {
         align-items: center;
         padding: 80px 112px;
+    }
+    .sale-slider {
+        margin-bottom: 0;
     }
 
     .sale-slider-items {
@@ -267,11 +280,16 @@
     .sale-main-img-5 {
         width: 428px;
         height: 558px;
-        padding: 50px 80px;
         align-items: center;
         justify-content: center;
         margin-right: 40px;
         display: flex;
+        padding: 0;
+    }
+
+    .sale-img-5 {
+        width: 328px;
+        height: 398px;
     }
 
     .sale-price {
@@ -284,7 +302,6 @@
     }
 
     .sale-offer {
-        overflow:auto;
         height: 558px;
     }
 }
