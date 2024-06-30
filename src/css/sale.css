@@ -124,10 +124,13 @@
 
 .new-price {
     border: 1px solid #4761eb;
-    padding: 8px 12px;
     border-radius: 8px;
     background-color: #4761eb;
-
+    width: 78px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .original-price {
