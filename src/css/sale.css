@@ -51,7 +51,7 @@
 
 .sale-main-img-5 {
     background-color: #f8f8f8;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 50px;
 }
 
@@ -197,7 +197,14 @@
     .sale-main-img-5 {
         align-items: center;
         padding: 80px 112px;
+        border-radius: 30px;
     }
+
+    .sale-img-5 {
+        width: 328px;
+        height: 398px;
+    }
+
     .sale-slider {
         margin-bottom: 0;
     }
