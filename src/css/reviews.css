@@ -39,11 +39,10 @@
 .reviews-text-card {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.29;
+    line-height: 1.28571;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
-    margin-top: 8px;
 }
 
 .images {
@@ -100,6 +99,15 @@
     .reviews{
         margin-bottom: 80px;
     }
+
+    .reviews-text-card{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);        
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -138,5 +146,14 @@
         letter-spacing: -0.02em;
         text-align: center;
         color: #0c0c0c;
+    }
+
+    .reviews-text-card{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);        
     }
 }
