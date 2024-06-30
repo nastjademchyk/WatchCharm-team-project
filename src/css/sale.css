@@ -16,8 +16,13 @@
     margin: 20px;
 }
 
+.sale-watches-container {
+    margin-bottom: 20px;
+}
+
 .sale-slider {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .sale-section-title {
