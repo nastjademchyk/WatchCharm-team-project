@@ -365,6 +365,11 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   fill: #fbfbfb;
 }
 
+.menu-svg:hover,
+.menu-svg:focus {
+  fill: #fbfbfb;
+}
+
 @media only screen and (min-width: 768px) {
   .mob-menu {
     width: 330px;
@@ -412,7 +417,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 @media only screen and (min-width: 1280px) {
-  .mob-menu {
-    visibility: hidden;
+
+  /*.mob-menu {
+    visibility: hidden;}*/
+  .mob-menu.is-open {
+    display: none;
   }
 }
