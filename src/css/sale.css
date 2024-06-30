@@ -32,14 +32,13 @@
     overflow-x: auto;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .slider-item {
     display: flex;
     width: 80px;
     background-color: #f8f8f8;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
     flex-direction: row;
     padding: 13px 14px;
@@ -48,7 +47,6 @@
 .sale-main-img-5 {
     background-color: #f8f8f8;
     border-radius: 50px;
-    margin-bottom: 20px;
     padding: 50px;
 }
 
@@ -178,9 +176,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .sale-section-title {
         margin-bottom: 40px;
     }
 
