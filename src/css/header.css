@@ -374,7 +374,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .mob-menu {
-      background-image: url(./images/menu-img-x2/menu-bg-img-tab-x2.png);
+      background-image: url(../images/menu-img-x2/menu-bg-img-tab-x2.png);
     }
   }
 
