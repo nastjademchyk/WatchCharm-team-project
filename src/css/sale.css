@@ -11,8 +11,6 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    max-width: 1200px;
-    width: 100%;
     margin: 20px;
 }
 
@@ -28,12 +26,18 @@
 .sale-section-title {
     font-size: 2em;
     margin-bottom: 24px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
 }
 
 .sale-slider-items {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     overflow-x: auto;
     justify-content: center;
     align-items: center;
@@ -42,17 +46,24 @@
 .slider-item {
     display: flex;
     width: 80px;
-    background-color: #f8f8f8;
-    border-radius: 30px;
+    background-color: #f3f3f3;
     cursor: pointer;
     flex-direction: row;
     padding: 13px 14px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
 }
 
 .sale-main-img-5 {
-    background-color: #f8f8f8;
+    background-color: #f3f3f3;
     border-radius: 30px;
     padding: 50px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 335px;
+    height: 385px;
 }
 
 .sale-img-5 {
@@ -68,7 +79,7 @@
 }
 
 .sale-product-identity {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .sale-product-name {
@@ -88,7 +99,6 @@
     line-height: 1.28571;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.7);
-
 }
 
 .product-tag {
@@ -106,7 +116,7 @@
 }
 
 .sale-details {
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 .sale-price {
@@ -200,7 +210,10 @@
     .sale-main-img-5 {
         align-items: center;
         padding: 80px 112px;
-        border-radius: 30px;
+        border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 50px;
+        width: 552px;
+        height: 558px;
     }
 
     .sale-img-5 {
@@ -215,6 +228,7 @@
     .sale-slider-items {
         flex-direction: column;
         margin-right: 20px;
+        gap: 10px;
     }
 
     .slider-item {
@@ -222,6 +236,10 @@
         height: 132px;
         align-items: center;
         justify-content: center;
+        border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 20px;
+        width: 132px;
+        height: 132px;
     }
 
     .sale-offer {
@@ -287,14 +305,27 @@
         height: 558px;
     }
 
+    .sale-slider-items {
+        gap: 10px;
+    }
+
+    .slider-item {
+        border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 20px;
+        width: 132px;
+        height: 132px;
+    }
+
     .sale-main-img-5 {
-        width: 428px;
-        height: 558px;
         align-items: center;
         justify-content: center;
         margin-right: 40px;
         display: flex;
         padding: 0;
+        border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 50px;
+        width: 428px;
+        height: 558px;
     }
 
     .sale-img-5 {
