@@ -112,6 +112,7 @@ text-align: center;
     
    .catalog-title {
         font-size: 48px;
+        line-height: 0.92;
         margin-bottom: 40px;
        
        }
