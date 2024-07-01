@@ -8,7 +8,7 @@
 }
 
 .adv {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .adv-wrapper {
@@ -94,7 +94,7 @@
 /* Media rules for tablets (from 768px) */
 @media screen and (min-width: 768px) {
     .adv {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 
     .container {
@@ -127,7 +127,7 @@
 /* Media rules for desktops (from 1280px) */
 @media screen and (min-width: 1280px) {
     .adv {
-        margin-bottom: 100px;
+        padding-bottom: 100px;
     }
 
     .container {

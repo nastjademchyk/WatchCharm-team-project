@@ -1,7 +1,6 @@
 .hero {
   padding-top: 60px;
-  padding-bottom: 0;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .box-hero {
@@ -73,7 +72,7 @@
   }
   .hero {
     padding-top: 80px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .box-title-people {
     display: flex;
@@ -138,7 +137,7 @@
   }
 
   .hero {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .hero-title {

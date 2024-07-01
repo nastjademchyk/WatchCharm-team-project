@@ -1,7 +1,6 @@
 .sale {
     margin-top: 0;
-    margin-bottom: 60px;
-    padding: 0;
+    padding-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +183,7 @@
 /* Tablet screens */
 @media (min-width: 768px) {
     .sale {
-        margin-bottom: 100px;
+        padding-bottom: 80px;
     }
 
     .sale-title {
@@ -309,5 +308,9 @@
 
     .sale-product-name {
         width: 389px;
+    }
+
+      .sale {
+        padding-bottom: 100px;
     }
 }

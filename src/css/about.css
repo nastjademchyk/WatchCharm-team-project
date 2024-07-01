@@ -1,5 +1,5 @@
 .section-about {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 .container {
     max-width: 375px;
@@ -7,7 +7,6 @@
     margin: 0 auto;
 }
 .container-div-about {
-    width: 375px;
     padding: 0px 20px;
     display: flex;
     align-items: flex-start;
@@ -15,14 +14,12 @@
     flex-direction: column;
     gap: 20px;
 }
-.block-about { 
-    width: 335px;
-    height: 446px;
-}
+
 .block-background {
     border-radius: 30px;
-    width: 335px;
-    height: 446px;
+    max-width: 335px;
+    min-height: 446px;
+    max-height: 496px;
     background-color: #f3f3f3;
     padding: 40px 20px 128px 20px;
 }
@@ -48,7 +45,7 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 20px;
-    width: 295px;
+    max-width: 295px;
 }
 .p-about {
     font-weight: 500;
@@ -89,7 +86,7 @@
 
 @media only screen and (min-width: 768px) {
     .section-about {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
     .container {
         max-width: 768px;
@@ -110,7 +107,7 @@
     }
     .block-background {
         border-radius: 50px;
-        width: 704px;
+        max-width: 704px;
         height: 512px;
         background-color: #f3f3f3;
         padding: 75px 60px 80px 60px;
@@ -138,7 +135,7 @@
         justify-content: flex-start;
         flex-direction: row;
         gap: 20px;
-        width: 584px;
+        max-width: 584px;
     }
     .p-about {
         font-weight: 500;
@@ -160,7 +157,7 @@
 
 @media only screen and (min-width: 1280px) {
     .section-about {
-        margin-bottom: 100px;
+        padding-bottom: 100px;
     }
     .container {
         max-width: 1280px;
@@ -182,7 +179,7 @@
     .block-background {
         border-radius: 50px;
         width: 580px;
-        height: 532px;
+        min-height: 532px;
         background-color: #f3f3f3;
         padding: 75px 55px 80px 55px;
     }
