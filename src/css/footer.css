@@ -32,7 +32,7 @@ body {
 }
 
 .footer-section {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .footer-wrap {
@@ -182,7 +182,7 @@ body {
 @media only screen and (min-width: 768px) {
 
     .footer-section {
-        margin-bottom: 32px;
+        padding-bottom: 32px;
     }
 
     .footer-wrap {
