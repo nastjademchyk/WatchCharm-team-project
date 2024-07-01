@@ -231,7 +231,6 @@
 
 .mobile-social-container {
   margin-top: auto;
-  position: relative;
   margin-bottom: 40px;
 }
 
@@ -326,7 +325,6 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 .mob-social-list {
-  margin-bottom: 50px;
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -354,9 +352,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   fill: #fbfbfb;
 }
 
-.mobile-social-container {
+/* .mobile-social-container {
   margin-top: auto;
-}
+  margin-bottom: 50px;
+} */
 
 @media only screen and (min-width: 768px) {
   .mob-menu {
