@@ -226,7 +226,7 @@
   z-index: 999;
   overflow-y: auto;
   background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
-    url(./images/menu-img-x1/menu-bg-img-mob-x1.png);
+    url(../images/menu-img-x1/menu-bg-img-mob-x1.png);
 }
 
 .mobile-social-container {
@@ -239,7 +239,7 @@ screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .mob-menu {
     background-image: linear-gradient(to right, rgba(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92))),
-      url(./images/menu-img-x2/menu-bg-img-mob-x2.png);
+      url(../images/menu-img-x2/menu-bg-img-mob-x2.png);
   }
 }
 
@@ -362,7 +362,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     width: 330px;
     height: 100%;
     background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
-      url(./images/menu-img-x1/menu-bg-img-tab-x1.png);
+      url(../images/menu-img-x1/menu-bg-img-tab-x1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -406,3 +406,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin-bottom: 50px;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .mob-menu{
+display: none;
+  }
+  }
