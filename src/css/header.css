@@ -56,8 +56,6 @@
 }
 
 /*navigation*/
-.header-nav {}
-
 .header-nav-list {
   align-items: center;
   justify-content: flex-end;
@@ -66,32 +64,6 @@
   display: none;
 }
 
-.header-nav-home {
-  /*display: block;
-  position: relative;
-*/
-}
-
-.header-nav-home::after {
-  /* position: absolute;
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background-color: #3350e9;
-  left: 15px;
-  top: 25px;
-*/
-}
-
-.header-nav-li {
-  /*font-weight: 500;
-  font-size: 14px;
-  line-height: 129%;
-  text-align: center;
-  color: #0c0c0c;
-*/
-}
 
 .header-list {
   display: none;
