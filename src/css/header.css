@@ -215,7 +215,7 @@
   top: 0;
   right: 0;
   width: 200px;
-  min-height: 812px;
+  height: 100%;
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -226,7 +226,13 @@
   z-index: 999;
   overflow-y: auto;
   background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
-    url(/images/menu-img-x1/menu-bg-img-mob-x1.png);
+    url(./images/menu-img-x1/menu-bg-img-mob-x1.png);
+}
+
+.mobile-social-container {
+  margin-top: auto;
+  position: relative;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -234,7 +240,7 @@ screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .mob-menu {
     background-image: linear-gradient(to right, rgba(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92))),
-      url(../images/menu-img-x2/menu-bg-img-mob-x2.png);
+      url(./images/menu-img-x2/menu-bg-img-mob-x2.png);
   }
 }
 
@@ -247,7 +253,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 .button-menu-close {
   display: block;
   margin-left: auto;
-  margin-bottom: 186px;
+  margin-bottom: 100px;
   width: 34px;
   height: 34px;
   background-color: transparent;
@@ -266,11 +272,12 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 .menu-mob-nav {
   display: flex;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .menu-mob-list {
   text-align: center;
-  margin-bottom: auto;
+  margin-bottom: 75px;
 }
 
 .menu-item:not(:last-child) {
@@ -289,10 +296,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 /*POINT*/
 .menu-mob-li:hover::after {
   content: "";
-  width: 9px;
+  width: 8px;
   position: absolute;
-  left: 40%;
-  top: 140%;
+  left: calc(50% - 4px);
+  top: 25px;
   height: 8px;
   background-color: #3350E9;
   border-radius: 100%;
@@ -300,10 +307,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 .menu-mob-li:focus::after {
   content: "";
-  width: 9px;
+  width: 8px;
   position: absolute;
-  left: 40%;
-  top: 140%;
+  left: calc(50% - 4px);
+  top: 25px;
   height: 8px;
   background-color: #3350E9;
   border-radius: 100%;
@@ -347,12 +354,16 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   fill: #fbfbfb;
 }
 
+.mobile-social-container {
+  margin-top: auto;
+}
+
 @media only screen and (min-width: 768px) {
   .mob-menu {
     width: 330px;
     height: 100%;
     background-image: linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
-      url(../images/menu-img-x1/menu-bg-img-tab-x1.png);
+      url(./images/menu-img-x1/menu-bg-img-tab-x1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -364,13 +375,13 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .mob-menu {
-      background-image: linear-gradient(to right, rgba(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92))),
-        url(../images/menu-img-x2/menu-bg-img-tab-x2.png);
+      background-image: linear-gradient rgba(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92)),
+        url(./images/menu-img-x2/menu-bg-img-tab-x2.png);
     }
   }
 
   .button-menu-close {
-    margin-bottom: 244px;
+    margin-bottom: 100px;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -390,5 +401,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .mob-social-item {
     max-width: 36px;
     max-height: 36px;
+  }
+
+  .mobile-social-container {
+    margin-bottom: 50px;
   }
 }
