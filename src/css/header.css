@@ -1,6 +1,15 @@
 .header {
   padding: 20px 0;
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+
+  position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 5px #0003;
+    background-color: #fbfbfb;
+    max-height: 88px;
+    z-index: 9999;
 }
 
 .nav-list {
