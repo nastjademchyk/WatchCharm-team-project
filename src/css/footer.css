@@ -83,7 +83,7 @@ body {
 
 .footer-icon-social:hover,
 .footer-icon-social:focus {
-    fill: #fbfbfb;
+    fill: rgba(251, 251, 251, 0.5);
 }
 
 .footer-phone {
@@ -134,7 +134,7 @@ body {
     min-width: 147px;
 }
 
-/* .footer-link,
+.footer-link,
 .terms-link {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -142,7 +142,7 @@ body {
 .footer-link:hover,
 .footer-link:focus {
     color: rgba(251, 251, 251, 0.5);
-} */
+}
 
 .footer-address {
     font-weight: 500;
@@ -174,10 +174,10 @@ body {
     gap: 20px;
 }
 
-/* .terms-link:hover,
+.terms-link:hover,
 .terms-link:focus {
     color: #fbfbfb;
-} */
+}
 
 @media only screen and (min-width: 768px) {
 
