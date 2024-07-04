@@ -26,3 +26,7 @@ body {
     padding: 0 65px;
   }
 }
+
+section {
+  scroll-margin-top: 100px;
+}
