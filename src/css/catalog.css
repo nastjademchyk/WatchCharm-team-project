@@ -19,19 +19,57 @@
 }
 
 .catalog-list {
+    list-style-type: none;
+    padding: 0;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
 .catalog-item {
+    background-color: #f0f0f0;
+    text-align: center;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    background: #f3f3f3;
     box-sizing: border-box;
     padding: 24px  28px;
-
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+    display: inline-block;
 }
+
+/* Стиль для задньої сторони елементу */
+.catalog-item::before {
+    content: attr(data-flip);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: #f3f3f3;
+    border: 2px solid rgba(12, 12, 12, 0.1);
+    border-radius: 30px;
+    color: #0c0c0c;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стиль при наведенні курсору */
+.catalog-item:hover {
+    transform: scale(1.05) rotateY(180deg);
+}
+
+
+/* Додатковий стиль для позиціонування */
+.catalog-item {
+    position: relative;
+}
+
 .catalog-item:nth-child(5),
 .catalog-item:nth-child(6) {
     display: none;
